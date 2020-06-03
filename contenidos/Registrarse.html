@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Edelex</title>
+        <link rel="stylesheet" href="css/estilosReg.css">
+    </head>
+    <body>  
+        <div class="contenedor">
+            <aside class="banner_1"><img class="banner_img" src="imagenes/Personaje1.png" alt=""></aside>
+            <aside class="banner_2"><img class="banner_img" src="imagenes/Personaje3.png" alt=""></aside>
+            <main class="formulario">
+                <img class="formulario_img" src="../imagenes/Remedy.webp" alt="" srcset="">
+                <form class="formulario_tabla" method="post" action="php/Registrar.php">
+                    <div class="formulario_titulo"><h2>Vamos a Registrarte</h2></div>
+                    <div class="formulario_usuario"><label for="usuario">Usuario<br><input class="formulario_captura" type="text" name="usuario" maxlength="16" placeholder="Nombre de Usuario" required></label></div>
+                    <div class="formulario_nombre"><label for="nombre">Nombre:<br><input class="formulario_captura" type="text" name="nombre" maxlength="16" placeholder="Nombre" required ></label></div>
+                    <div class="formulario_apellido"><label for="apellido">Apellido:<br><input class="formulario_captura" type="text" name="apellido" maxlength="16" placeholder="Apellido" ></label></div>
+                    <div class="formulario_correo"><label for="correo">Correo:<br><input class="formulario_captura" type="email" name="correo" placeholder="Correo" required></label></div>
+                    <div class="formulario_psw"><label for="psw">Contraseña:<br><input class="formulario_captura" type="password" name="psw" placeholder="Contraseña" required></label></div>
+                    <div class="formulario_perfil"><label for="perfil">Perfil<br><input class="formulario_captura" type="file" name="img" required></label></div>
+                    <div class="formulario_boton"><input class="formulario_btn" value="Enviar" type="submit"></div>
+                </form>
+            </main>        
+        </div>        
+    </body>
+</html>

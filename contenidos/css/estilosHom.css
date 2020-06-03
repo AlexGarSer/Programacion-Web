@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+
+
+/*////////////////////////////////*/
+/*       Fuente de letras         */ 
+ @font-face{font-family:"Fortnite";
+    src: url(Fortnite.woff);}
+/*                                */    
+/*////////////////////////////////*/
+
+body{
+    background: radial-gradient(#0458f3,#011f97);
+    font-family: "Fortnite";}
+
+/*////////////////////////////////*/
+/*/        Barra Superior        /*/
+/*////////////////////////////////*/
+
+.Barra{
+    background:radial-gradient(#9b36ee,#4d0497);
+    position: fixed;
+    margin: center;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    max-width: 1000px;
+    height: 50px;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.5);
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.Barra_seccion1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.Barra_seccion2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.Barra_Buscador{
+    margin-top: 5px;
+    width: 810px;
+    height: 30px;
+    line-height: 800px;
+    background: #ffffff;
+    padding: 0px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Barra_seccion3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+/*////////////////////////////////*/
+/*/     CUERPO DE LA PAGINA      /*/
+/*////////////////////////////////*/
+
+.Contenedor{
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;}
+  
+    
+.titulo{
+        font-size: 40px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 70px;}
+              
+.titulo_saludo h2{color: #919191;}    
+
+.Catalogo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;}
+    
+.Catalogo a{
+    color: #919191;
+    margin: 10px 20px;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;}
+
+.Catalogo a.Activo{
+    color: #fdc52d;}
+
+div.Galeria{
+    font-size: 40px;
+    color: #ffff;
+    height:100%;
+    width:100%;
+    max-width: 1000px;
+    margin-bottom:20px 20px;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;}
+
+.Galeria img{
+    margin: 60px 0px 60px;
+}

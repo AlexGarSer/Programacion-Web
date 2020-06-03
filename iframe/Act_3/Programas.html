@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Programando Js</title>
+</head>
+<body>   
+<script> 
+
+function Pgm1(){
+var n1;
+var n2;
+var Numero1;
+var Numero2;
+
+n1 = window.prompt("Escriba un numero:");
+n2 = window.prompt("Escriba un numero:");
+
+Numero1=parseInt(n1);
+Numero2=parseInt(n2);
+
+if(Numero1==Numero2){document.writeln("<h3> Ambos numeros son iguales");}
+    else{if(Numero1>Numero2){document.writeln("<h3> El numero "+n1+" es mayor que el numero:"+n2);}
+        else{document.writeln("<h3> El numero "+n1+" es menor que el numero "+n2);}
+    }
+}
+
+function Pgm2(){
+    var n1;
+    var n2;
+    var Numero1;
+    var Numero2;
+    var comparacion1;
+    var comparacion2;
+
+    Numero1=parseInt(n1);
+    Numero2=parseInt(n2);
+
+    comparacion1=Numero1/Numero1;
+    comparacion2=Numero2/Numero2;
+    n1 = window.prompt("Escriba un numero:");
+    n2 = window.prompt("Escriba un numero:");
+    
+      
+    if(Numero1=2){document.writeln("<h3> El numero "+n1+" y el numero "+n2+" son numeros par");}
+        else{if(Numero1=!2){document.writeln("<h3> El numero "+n1+" y el numero "+n2+" son numeros impares");}
+        }      
+}
+</script>
+<input type="button" value="Programa 1" onclick="Pgm1()"/>
+<br>
+<br>
+<input type="button" value="Programa 2" onclick="Pgm2()"/>    
+</body>
+</html>

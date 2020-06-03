@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+
+
+/*////////////////////////////////*/
+/*       Fuente de letras         */ 
+ @font-face{font-family:"Fortnite";
+    src: url(Fortnite.woff);}
+/*                                */    
+/*////////////////////////////////*/
+
+
+/* BARRA SUPERIOR*/
+nav.Barra{
+    background:radial-gradient(#9b36ee,#4d0497);
+    margin-bottom: 30px;
+    padding: 10px 10px;}
+    
+nav ul{
+    list-style: none;
+    overflow: hidden;}
+
+nav ul li{
+    float:left;}
+
+nav ul li a{
+    display: block;
+    padding: 10px 10px;
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;}
+
+nav ul li a:hover{
+    color: #fdc52d;}
+
+nav ul li a.Inicio{margin-left: 8px;}
+
+nav ul li a.Cuenta{margin-right: 8px;}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;}
+
+nav ul li ul li{
+    display: hidden;
+    background:radial-gradient(#9b36ee,#4d0497);}
+
+nav li:hover > ul{
+    display: block;}
+
+.Barra{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    max-width: 1000px;
+    height: 55px;
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.5);}    
+            
+header form{
+        width: 100%;
+        max-width: 1000px;
+        justify-content: center;}
+    
+header form input.Barra_Buscador{
+        margin-top: 5px;
+        width: 810px;
+        height: 30px;
+        line-height: 800px;
+        background: #ffffff;
+        padding: 0px;
+        border-radius: 100px;
+        border: none;
+        text-align: center;
+        font-size: 16px;}
+
+/*////////////////////////////////*/
+/*/     CUERPO DE LA PAGINA      /*/
+/*////////////////////////////////*/
+
+body{
+    background: radial-gradient(#0458f3,#011f97);
+    font-family: "Fortnite";}
+
+div.Contenedor{
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;}
+
+/*Cabecera*/
+header{
+    padding: 40px 0px;}   
+    
+header div.Saludo{
+        font-size: 40px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 70px;}
+              
+header div.saludo h2{color: #919191;}    
+
+header div.Catalogo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;}
+    
+header div.Catalogo a{
+    color: #919191;
+    margin: 10px 20px;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;}
+
+header div.Catalogo a.Activo{
+    color: #fdc52d;}
+
+div.Galeria{
+    font-size: 40px;
+    color: #ffff;
+    height:100%;
+    width:100%;
+    max-width: 1000px;
+    margin-bottom:20px 20px;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;}
+
+.Galeria img{
+    margin: 60px 0px 60px;
+}

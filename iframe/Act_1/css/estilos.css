@@ -1,0 +1,12 @@
+div.Datos{
+  color: green;
+  text-transform: capitalize;
+}
+
+table {background-color:#ffff;
+      color: green;
+      text-align: center;
+      font-size: 20px;
+    position: center;}
+
+nav.a{text-align: right;}

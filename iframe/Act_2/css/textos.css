@@ -1,0 +1,26 @@
+p.Datos{color: green;text-align: center;}
+div.Hipervinculo{width: 200px;height: 110px;border: 3px solid red;padding: 5px 20px;text-align: center;
+    background: -webkit-gradient(left top,right top, right bottom, color-stop(25%,red), color-stop(25%,yellow), color-stop(25%,red));
+    background: -moz-linear-gradient(top left,top right,red 25%,yellow 25%, red 25%);
+    background: linear-gradient(45deg,red 25%,yellow 25%,red 25%);
+    margin-right: 15px;}
+table{color: green;}
+div.Texto{margin-top: auto;}
+div.FIME{width: 200px;height: 200px;box-shadow: -25px 25px 35px dimgrey;float:left;margin-top:40px;margin-left:20px;
+    animation-name:Logo_FIME;animation-duration:10s;}
+
+div.UANL{width: 200px;height: 200px;box-shadow: 25px 25px 35px dimgrey;float:right;margin-top:40px;margin-right:20px;
+    animation-name:Logo_UANL;animation-duration:10s;}
+
+div.Ventana{width:450px;height:300px;float: right;}
+@keyframes Logo_UANL {
+    0%{transform:translatex(0px)translateY(0px);}
+    20%{transform:translatex(100px)}
+    40%{transform:translateY(100px);}
+    60%{transform:translateY(-100px);}
+    100%{transform:translatex(0px)translateY(0px);}}
+@keyframes Logo_FIME {
+    0%{transform:rotateY(90deg);}
+    50%{transform:rotateY(180deg);}
+    100%{transform:rotateY(360deg);}
+}
